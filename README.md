@@ -28,7 +28,7 @@ The system fine-tunes transformer encoders on the AG News dataset and then uses 
 * Classification performance evaluation
 * Confusion matrix visualization
 * Cosine similarity based semantic search
-
+* Added Faiss based retrieval search
 ---
 
 ## Models Used
@@ -194,10 +194,10 @@ The project compares multiple transformer architectures in terms of:
 ├── notebooks/
 │   └── Semantic_News_Search_BERT.ipynb
 │
+├── transformer_report.pdf
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
 ```
 
 ---
@@ -206,7 +206,6 @@ The project compares multiple transformer architectures in terms of:
 
 Possible extensions include:
 
-* FAISS indexing for scalable retrieval
 * Cross-encoder reranking
 * Hybrid BM25 + transformer retrieval
 * Deployment as a web application
